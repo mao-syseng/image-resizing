@@ -2,8 +2,8 @@ const sharp = require("sharp");
 const fs = require("fs-extra");
 const path = require("path");
 
-const inputDir = "./admatic-input-images";
-const outputDir = "./admatic-output-images";
+const inputDir = "./input-images";
+const outputDir = "./output-images";
 
 const args = process.argv.slice(2);
 
